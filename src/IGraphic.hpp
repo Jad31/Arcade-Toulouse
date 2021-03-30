@@ -17,6 +17,7 @@ namespace arcade {
         class IGraphic : public ILibrary {
             public:
                 virtual ~IGraphic() {}
+                virtual bool quitRequested() const = 0;
 
             protected:
             private:
